@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+   <link rel="stylesheet" href="groupassign.css">
+<body>
+     <h1>
+        <!--This explains in summary about Capitalization-->
+       <strong>
+       Capitalization
+        </strong>
+     </h1>
+     
+         <p>
+            This transforms a text input or string to “UPPERCASE”, 
+            the reverse is also true in the case of “LOWERCASE" letters.<br>
+            Sometimes capitalization is only required for the first letter of a given word,
+            here we assign numbers to each letter and call out the letter we want.<br>
+            We use;<br>
+              .toUpperCase<br>
+              .toLowerCase<br>
+              .slice Or .split(when intending to use both)<br>
+              Given;<br>
+             Var string = "pauline enjoys discovering new music"<br>
+            
+
+          </p>
+
+          <p>Click the button to convert the string to uppercase letters.</p>
+
+            <button onclick="myFunction()">Try it</button>
+
+              <p id="demo"></p>
+
+       <script>
+          /* This function is for UpperCase*/
+          function myFunction() {
+          var sentence = "pauline enjoys discovering new music";
+          var res = sentence.toUpperCase();
+          document.getElementById("demo").innerHTML = res;
+          }
+
+         
+       </script>
+
+          <p>Click the button to convert the string back to lowercase letters.</p>
+
+            <button onclick="myFunction2()">Try it</button>
+
+            <p id="sametext"></p>
+
+       <script>
+          /*This function is for LowerCase*/
+          function myFunction2() {
+          var sentence = "PAULINE ENJOYS DISCOVERING NEW MUSIC ";
+          var res = sentence.toLowerCase();
+          document.getElementById("sametext").innerHTML = res;
+}
+       </script>
+
+  </body>
+  
+</html>

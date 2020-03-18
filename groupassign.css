@@ -1,0 +1,16 @@
+/* This Styles everything in the h1 element*/
+h1{
+    color:whitesmoke;
+    background-color:#021831;
+    text-align: center;
+}
+/* This Styles everything in the body*/
+body{
+    
+    font-size: larger;
+    font-weight: bold;
+    font-family:sans-serif;
+    background-image:url("/images/silver\ surfer.jpg");
+    color:black;
+}
+
